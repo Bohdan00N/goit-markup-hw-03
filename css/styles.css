@@ -6,7 +6,7 @@
     --background-other-color: #2F303A;
     --hero-color:#fff;
 }   
-*{
+html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,12 +20,13 @@ body{
 .list{
     list-style: none;
 }
-.header{
-    display: inline-block;
-    margin-left: 215px;
-    align-items: center;
-    justify-content: center;
-    
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 .logo{
     color:var(--accent-color);
@@ -33,24 +34,33 @@ body{
     text-decoration:none;
     font-family:"Raleway", sans-serif;
     line-height:1.2;
+    margin-right: 93px;
     }
 .logo-part{
     color: #000;
     text-decoration:none;
 }
-.nav .link{
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+.nav-list .link{
     color: var(--main-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding: 30px 0;
 }
-.nav .link:hover,
-.nav .link:focus{
+.nav-list .link:hover,
+.nav-list .link:focus{
     color:var(--accent-color);
 }
-.nav .link.current{
+.nav-list .link.current{
     color:var(--accent-color);
 }
 .contacts .link{
@@ -68,7 +78,7 @@ body{
 }
 .hero{
     background-color: var(--background-other-color);
-}
+   }
 .hero-top{
     color:var(--hero-color);
     font-weight: 900;
@@ -77,6 +87,8 @@ body{
     text-align: center;
     letter-spacing: 00.03em;
     text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
 }
 .main-button{
   color: var(--hero-color);
@@ -86,7 +98,7 @@ body{
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-}
+  }
 .section .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -173,3 +185,30 @@ body{
     font-size: 16px;
     line-height: 1.8;
 }
+
+/*geometry*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header .container{
+    display: flex;
+    margin: 0 auto;
+   
+    align-items:center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.contacts {
+ display: flex;
+ gap: 50px;
+}
+.container .hero-top{
+    height: 600px;
+}
+
