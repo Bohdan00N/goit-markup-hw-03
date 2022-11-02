@@ -78,6 +78,8 @@ ul {
 }
 .hero{
     background-color: var(--background-other-color);
+    width: 1600px;
+    height: 600px;
    }
 .hero-top{
     color:var(--hero-color);
@@ -87,9 +89,7 @@ ul {
     text-align: center;
     letter-spacing: 00.03em;
     text-transform: uppercase;
-    align-items: center;
-    justify-content: center;
-}
+    }
 .main-button{
   color: var(--hero-color);
   background-color: var(--accent-color);
@@ -98,7 +98,7 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  }
+    }
 .section .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -208,7 +208,13 @@ ul {
  display: flex;
  gap: 50px;
 }
-.container .hero-top{
-    height: 600px;
+.container-hero{
+    height: 120px;
+    width: 696px;
+    padding: 200px 452px 280px;
 }
-
+.container-hero .main-button{
+    margin: 30px 692px;
+    max-height: 50px;
+    max-width: 216px;
+}
