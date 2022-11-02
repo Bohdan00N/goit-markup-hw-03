@@ -6,6 +6,11 @@
     --background-other-color: #2F303A;
     --hero-color:#fff;
 }   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     color:var(--main-color);
     background-color:var(--background-color);
@@ -15,13 +20,20 @@ body{
 .list{
     list-style: none;
 }
+.header{
+    display: inline-block;
+    margin-left: 215px;
+    align-items: center;
+    justify-content: center;
+    
+}
 .logo{
     color:var(--accent-color);
     font-size:26px;
     text-decoration:none;
     font-family:"Raleway", sans-serif;
     line-height:1.2;
-}
+    }
 .logo-part{
     color: #000;
     text-decoration:none;
