@@ -279,6 +279,7 @@ ul {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    color: #212121;
 }
 .portfolio .title-down{
     color: var(--title-text-color);
@@ -347,29 +348,8 @@ gap: 21px;
 .portfolio-branch-img{
     text-decoration: none;
 }
-.portfolio-branch .title-up{
-    font-family: Roboto;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #212121;
-  padding-left: 24px;
-  padding-top: 20px;
-}
-.portfolio-branch .title-down{
-    font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #757575;
-  padding-left: 24px;
-  padding-bottom: 20px;
-}
 .about{
+    padding: 20px 24px;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
